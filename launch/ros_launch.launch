@@ -1,0 +1,6 @@
+
+<launch>
+	<include file="$(find kb_teleop)/launch/kb_teleop.launch"/>
+	<include file="$(find cmd_vel)/launch/cmd_vel.launch"/>
+	
+</launch>
